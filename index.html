@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mountain Coffee Roasters | High Altitude Coffee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oxanium:wght@400..800&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="dark">
+  <div class="scanline-overlay"></div>
+
+  <header id="header-main">
+    <div class="container">
+      <nav class="nav-container">
+        <a href="index.html" class="brand">
+          <img src="image/logo-2.png" alt="Mountain Coffee Roasters Logo">
+          <span class="brand-name">Mountain Coffee Roasters</span>
+        </a>
+        <button id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="icon">MENU</span>
+        </button>
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="coffees.html" class="nav-link">Coffees</a></li>
+          <li class="nav-item"><a href="subscriptions.html" class="nav-link">Subscriptions</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">Our Story</a></li>
+          <li class="nav-item"><a href="impact.html" class="nav-link">Our Impact</a></li>
+          <li class="nav-item"><a href="brewing_guides.html" class="nav-link">Brewing Guides</a></li>
+          <li class="nav-item"><a href="blog__jnal.html" class="nav-link">Blog / Journal</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero fade-in-up" style="background-image: url('image/background-1.png');">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Elevate Your Morning Ritual</h1>
+            <p>High-altitude roasting for a smoother, bolder finish. Experience coffee shaped by thin air and cold winds.</p>
+            <div style="margin-top: 2rem;">
+              <a href="impact.html" class="btn btn-primary">View All Drinks</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="image/lifestyle-1.png" alt="Artisanal Coffee Preparation">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="fade-in-up" style="text-align: center; margin-bottom: 4rem;">
+          <h2 class="text-neon glow-text">The High-Altitude Difference</h2>
+          <p style="max-width: 700px; margin: 0 auto;">Lower air pressure allows us to roast at lower temperatures, unlocking flavor notes that disappear at sea level.</p>
+        </div>
+        <div class="bento-grid">
+          <div class="feature-card fade-in-up">
+            <img src="image/icon-1.png" alt="Pressure Icon">
+            <h3>Lower Air Pressure</h3>
+            <p>Roasting at 7,000 feet preserves the nuanced notes of high-altitude beans.</p>
+          </div>
+          <div class="feature-card fade-in-up">
+            <img src="image/icon-2.png" alt="Temperature Icon">
+            <h3>Optimal Temperature</h3>
+            <p>Our process prevents bitterness by avoiding the high heat of traditional roasting.</p>
+          </div>
+          <div class="feature-card fade-in-up">
+            <img src="image/icon-3.png" alt="Flavor Icon">
+            <h3>Flavor Preservation</h3>
+            <p>Experience vibrant acidity and floral notes inherent to each region.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="fade-in-up" style="text-align: center; margin-bottom: 4rem;">
+          <h2>Featured Blends</h2>
+        </div>
+        <div class="bento-grid">
+          <div class="card fade-in-up">
+            <img src="image/lifestyle-2.png" alt="Summit Blend">
+            <h3>Summit Blend</h3>
+            <p class="text-neon">$19.50/lb</p>
+            <p>Heavy-bodied and bold. Tasting notes of dark chocolate and wild berries.</p>
+            <a href="coffees.html" class="btn btn-secondary" style="margin-top: 1.5rem;">Shop Now</a>
+          </div>
+          <div class="card fade-in-up">
+            <img src="image/lifestyle-3.png" alt="Alpine Sunrise">
+            <h3>Alpine Sunrise</h3>
+            <p class="text-neon">$21.00/lb</p>
+            <p>Vibrant light roast with notes of citrus zest and bright honey acidity.</p>
+            <a href="coffees.html" class="btn btn-secondary" style="margin-top: 1.5rem;">Shop Now</a>
+          </div>
+          <div class="card fade-in-up">
+            <img src="image/lifestyle-4.png" alt="Timberline Espresso">
+            <h3>Timberline Espresso</h3>
+            <p class="text-neon">$20.00/lb</p>
+            <p>Toasted almond and caramel. Optimized for the perfect espresso pull.</p>
+            <a href="coffees.html" class="btn btn-secondary" style="margin-top: 1.5rem;">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner fade-in-up" style="background-image: url('image/background-2.png');">
+          <div class="cta-content">
+            <h2 class="text-pink glow-text">Join the Basecamp Club</h2>
+            <p>Subscribe and save 15% on every bag. Never run out of your favorite fuel.</p>
+            <form id="form-subscription" class="subscription-form">
+              <input type="email" placeholder="Your cyber-mail" required>
+              <button type="submit" class="btn btn-primary">Initialize</button>
+            </form>
+            <p class="form-sub-feedback" style="margin-top: 1rem; min-height: 1.5em;"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <h3 class="text-neon">Mountain Coffee Roasters</h3>
+          <p>Passionate about crafting exceptional artisanal coffee from sustainable farms worldwide. Born in the peaks, crafted for the valley.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="coffees.html">Coffees</a></li>
+            <li><a href="subscriptions.html">Subscriptions</a></li>
+            <li><a href="impact.html">Our Impact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Community</h4>
+          <ul>
+            <li><a href="brewing_guides.html">Brewing Guides</a></li>
+            <li><a href="blog__jnal.html">Journal</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Privacy Protocol</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Mountain Coffee Roasters. All protocols reserved. // MISSION: Peak Flavor.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="theme-toggle" aria-label="Toggle dark mode">
+    <span class="icon">🌙</span>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
